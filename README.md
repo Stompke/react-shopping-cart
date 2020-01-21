@@ -91,7 +91,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 - After refactoring you'll notice a few errors... Don't worry we'll clean those up shortly!
 
-[] **STEP 4 - Consuming data with ProductContext**
+[✅] **STEP 4 - Consuming data with ProductContext**
 
 - Now that our `ProductContext` is now providing data we can finally consume it! To do so let's head over to our `Products` component and import the `useContext` hook as well as our `ProductContext`.
 
