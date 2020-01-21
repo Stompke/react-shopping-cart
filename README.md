@@ -113,7 +113,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Now our `Products` component is getting it's data solely from `Context API` 😃.
 
-[] **STEP 5 - Create the CartContext**
+[✅] **STEP 5 - Create the CartContext**
 
 - Now that we have refactored our `Products` component to utilize `Context API` let's refactor our `Cart` and `Navigation` Component to use `Context API` as well.
 
@@ -121,7 +121,7 @@ const { products, addItem } = useContext(ProductContext);
 
 - Inside of our new `CartContext` import `createContext` and create a new context named `CartContext`.
 
-[] **STEP 5 - Providing data with CartContext**
+[✅] **STEP 5 - Providing data with CartContext**
 
 - Let's go ahead and bring our newly created `CartContext` into our `App.js` and wrap all of our components inside of our `CartContext.Provider`. Make sure our `ProductContext.Provider` is still the root provider.
 
